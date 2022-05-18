@@ -123,9 +123,6 @@ public class Repository {
 
     }
 
-    
-	
-	
 	
 	public void saveCadastro(Cadastro cadastroOutput){
 		
@@ -143,7 +140,7 @@ public class Repository {
                 ){
             for(Aluno aluno: cadastroOutput.getAlunos()){
                 for(Curso curso: cadastroOutput.getCursosFromAluno(aluno.getId())){
-                    pw.println(aluno.getId()+","+ aluno.getNome()+curso.getNome()+ ","+curso.getTipo()+","+ curso.getAno());
+                    pw.println(aluno.getId()+","+ aluno.getNome()+","+curso.getNome()+ ","+curso.getTipo()+","+ curso.getAno());
                 }
             }
 
