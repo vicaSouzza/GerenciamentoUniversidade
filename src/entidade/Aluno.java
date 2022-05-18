@@ -52,7 +52,7 @@ public class Aluno implements Comparable<Aluno>{
 
 	@Override
 	public String toString() {
-		return "Aluno [id=" + id + ", nome=" + nome + "]";
+		return "Aluno [id= " + id + ", nome= " + nome + "]";
 	}
 
 	@Override

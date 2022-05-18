@@ -73,7 +73,7 @@ public class Curso implements Comparable<Curso>{
 
 	@Override
 	public String toString() {
-		return "Curso [nome=" + nome + ", tipo=" + tipo + ", ano=" + ano + "]";
+		return "Curso [nome= " + nome + ", tipo= " + tipo + ", ano= " + ano + "]";
 	}
 
 
